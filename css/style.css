@@ -1,0 +1,242 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #f5f6f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 20px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 55px;
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  left: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+.gmail img,
+.facebook img {
+  width: 35px;
+}
+
+nav ul li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #979797;
+}
+
+.contactButton {
+  display: flex;
+}
+.contactButton div {
+  margin-left: 40px;
+}
+
+.more {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav button {
+  border: 1px solid #f7df1e;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #f7df1e;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+nav button:hover {
+  background-color: #f7df1e;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+header p {
+  color: #979797;
+  margin-bottom: 10px;
+}
+
+.search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search input {
+  border: 1px solid #f5f6f6;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.search button {
+  border: 1px solid #f5f6f6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.search button:hover {
+  background-color: #f7df1e;
+}
+
+.branding {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.left ul {
+  display: flex;
+}
+
+.left ul li {
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+.left ul li a {
+  text-decoration: none;
+}
+
+.left .black {
+  color: #000;
+  font-weight: bold;
+}
+
+.premium {
+  color: #ff4e00;
+}
+.free {
+  color: #3481ef;
+}
+
+.right {
+  display: flex;
+}
+.right li {
+  list-style-type: none;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.right li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.works {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-sector img {
+  width: 200px;
+  border-radius: 10px;
+}
+.card {
+  width: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .text-sector h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card .download-sector {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card .download-sector a {
+  text-decoration: none;
+  color: #000;
+}
+.card .download-sector a:hover {
+  text-decoration: underline;
+}
+
+span {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.ending {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discoveries a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.next-page button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f7df1e;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.next-page button:hover {
+  background-color: #f7df1e;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages .page {
+  margin-right: 10px;
+}
+
+.pages button {
+  padding: 2.5px 5px;
+  height: 30px;
+  margin: 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pages .last {
+  margin-left: 10px;
+}
